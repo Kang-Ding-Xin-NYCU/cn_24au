@@ -1,0 +1,3 @@
+python3 api_server.py
+sudo mn --custom topo_2.py --topo topo --controller=remote,ip=127.0.0.1,port=6633 --switch ovsk
+ryu-manager controller_2.py
